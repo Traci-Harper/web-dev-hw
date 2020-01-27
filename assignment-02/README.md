@@ -6,3 +6,10 @@ I decided to take this class because I've always wanted to learn how to design w
 - Design
 - HTML
 - CSS
+
+
+[Reddit](https://www.reddit.com)
+
+[My Responses File](./responses.txt)
+
+![My Screenshot](./images/screenshot.png)
