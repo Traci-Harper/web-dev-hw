@@ -1,0 +1,4 @@
+6. Data travels on the internet broken up into little packets of information. This information gets directed through routers. When it arrives at the destination it is reassembled together to form the data.
+7. The Domain Name System is a protocol tied to a unique IP address. For example www.Code.org is the DNS that a device uses to look up the IP Address which is a unique number like a mailing address, it is the unique location.
+8. A cookie is a number that tells a website who you are, a number that acts as an identification card.
+9. Protocol, Domain, Path
