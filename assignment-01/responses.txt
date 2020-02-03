@@ -1,0 +1,7 @@
+5. The internet is a inter-network that allows computers use to communicate to each other. A web is an system that connects information world wide using hypertext documents accessed via the internet.
+
+ 6. The internet works by breaking up information into small packets, then sending these packets using an internet service provider which has a server. When the files packets reach their destination, they are reassembled in the order they were sent. Computers have their own unique address, so it's kind of like the post office of digital information.
+
+ 7. A directory is a system of folders that organize files. It works in a system of hierarchy with nesting sub-folders that contain files. The directory shows the path to where a file is stored.
+
+ 8. With VCS, you can track all changes that were made to a file. You can revert back to previous versions of a file if there are mistakes or errors. You can easily share and collaborate with others on this platform and Github offers free hosting.
