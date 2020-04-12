@@ -1,0 +1,31 @@
+body {
+  background-color:#F1C40F;
+  }
+h1{
+  color:#F75C03;
+  text-align: center;
+}
+p{
+  color:#F75C03;
+  text-align: left;
+}
+.square {
+  width: 300px;
+}
+#one {
+  background-color: #7A4419;
+  opacity: .9
+}
+#two {
+  background-color: #7A4419;
+}
+#three {
+  background-color: #7A4419;
+  /*this is a comment in css*/
+
+
+}
+.circle {
+  opacity: .9;
+  height: 200px;
+}
