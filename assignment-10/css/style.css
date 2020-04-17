@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@0;1&display=swap');
+body {
+  background-color:#91D0D7;
+  padding: 5px;
+  font-family: 'Playfair Display', 'Comic Sans', serif;
+  }
+h1, h2{
+  color:#F7E3DA;
+  text-align: left;
+}
+.text, .text2{
+  color:#4682B4;
+  text-align: left;
+  line-height: 2em;
+  padding: 10px;
+}
+div{
+  background-color: #F7E3DA;
+}
+p:first-of-type:first-letter{
+  font-family: 'Lobster', 'Comic Sans', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  color: #FF5733;
+}
+.bold{
+  font-family: 'Lobster', 'Comic Sans', cursive;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #FF5733;
+}
+  .title{
+    font-size: 2em;
+    font-family: 'Lobster','Comic Sans', cursive;
+}
+.title2{
+  font-size: 0.95em;
+}
+a {
+  background-color: #FF5733;
+  color: #FFFFFF;
+  padding: 10px;
+}
+a:hover{
+  font-style: italic;
+}
+a:visited{
+  color: #999999;
+}
+a:active{
+  background-color: #999999;
+  color: rgb(11, 44, 126);
+}
