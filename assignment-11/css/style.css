@@ -1,0 +1,112 @@
+/*-------------------pagewide style------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@0;1&display=swap');
+body {
+  background-color:#B58794;
+  padding: 10px;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  font-size: 1.25em;
+  }
+
+/*------------------------------navigation-----------------*/
+
+
+.navigation {
+  background-color: #F7E3DA;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  text-decoration: none;
+}
+.navigation a{
+  text-decoration: none;
+  color: #B58794;
+}
+
+/*logo and title*/
+.site-info{
+  margin: 1em auto;
+  text-align: center;
+  font-size: 1.75em;
+
+}
+.logo{
+background-color: #B58794;
+width: 150px;
+height: 150px;
+margin: auto;
+border: 5px solid #F7E3DA;
+border-radius: 100%;
+line-height: 150px;
+text-transform: uppercase;
+color:#F7E3DA;
+
+}
+.logo:hover{
+  border-color: #999;
+}
+/*site links*/
+.site-links{
+margin: 0 3em;
+}
+.site-links a{
+  display: block;
+  margin: 2em;
+}
+/*social links*/
+.soc-links{
+  background-color: inherit;
+  width: 300px;
+  position: inherit;
+  bottom: 0;
+}
+.soc-links img{
+  background-color: #999;
+  width: 25%;
+
+}
+
+/*---------------------main content style--------------------*/
+.main{
+  color:#B58794;
+  text-align: left;
+  line-height: 2em;
+  padding: 20px;
+  margin-left: 300px;
+  padding: 2em;
+
+}
+.banner{
+  width: 100%;
+  height: auto;
+
+}
+h1, h2 {
+  color:#F7E3DA;
+  text-align: center;
+}
+h2{
+  float: auto;
+}
+div{
+  background-color: #F7E3DA;
+}
+p:first-of-type:first-letter{
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  color: #F9C770;
+}
+a:hover{
+  font-style: italic;
+}
+a:visited{
+  color: #999999;
+}
+a:active{
+  background-color: #999999;
+  color: rgb(11, 44, 126);
+}
