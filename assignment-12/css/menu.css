@@ -1,0 +1,83 @@
+/*------css for nav menu-----------*/
+
+
+
+
+
+/*menu bar container*/
+menu{
+  background-color: #114b5f;
+  margin:0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  position: fixed;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.5em;
+
+}
+/*top level links*/
+#site-links{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#site-links .menu-item{
+  width: 6em;
+  text-align: center;
+  color: #04E824;
+  background-color: #114b5f;
+  padding: .5em .5em .5em .5em;
+  display: inline-grid;
+  text-decoration: none;
+}
+#site-links .menu-item:hover{
+background-color: #04E824;
+  color: #114b5f;
+  text-decoration: underline;
+}
+
+
+/*dropdown*/
+#site-links .dropdown{
+display: inline-block;
+width: 1em;
+}
+#site-links .dropdown-content{
+  position: absolute;
+  display: none;
+  background-color: #04E824;
+  text-decoration: none;
+  z-index: 5;
+}
+#site-links .dropdown-content a{
+  color: #114b5f;
+
+}
+#site-links .dropdown-content a:hover{
+  color: #04E824;
+  background-color: #114b5f;
+  font-weight: 900;
+  text-decoration: underline;
+}
+#site-links .dropdown:hover .dropdown-content{
+  display: block;
+  text-decoration: none;
+}
+#site-links .dropdown-item {
+  width: 6em;
+  padding: 1em;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+.dropdown-item:hover{
+  background-color: #999;
+}
+
+
+
+/*social media*/
+#social-links{
+
+}
