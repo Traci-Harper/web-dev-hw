@@ -1,0 +1,51 @@
+/*-------------------pagewide style------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Old+Standard+TT&display=swap');
+body {
+  background-color:#FBFFFE;
+  padding: 0;
+  font-family: font-family: 'Old Standard TT', serif;
+  margin: 0;
+  font-size: 1.25em;
+  }
+  /*---------------------main content style--------------------*/
+.main{
+  color:#FBFFFE;
+  text-align: left;
+  line-height: 2em;
+  background-color: #114b5f;
+  width:auto;
+}
+  h1 {
+    color:#04E824;
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 3em;
+  }
+  h2 {
+    color:#04E824;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+  }
+  .banner{
+  width: 100%;
+  height: auto;
+}
+  .content{
+    margin-top: 50em;
+    padding: 100px;
+    margin: 50px;
+    color:#FBFFFE;
+    background-color: #114b5f;
+  }
+  .contact{
+    margin-top: 50em;
+    padding: 100px;
+    margin: 50px;
+    color:#FBFFFE;
+    background-color: #114b5f;
+  }
+  .email{
+      color:#FBFFFE;
+  }
