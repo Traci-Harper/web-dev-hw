@@ -1,9 +1,11 @@
 /*------css for nav menu-----------*/
-
-
-
-
-
+.navbar{
+  overflow: hidden;
+  background-color: #114B5F;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
 /*menu bar container*/
 menu{
   background-color: #114b5f;
@@ -14,7 +16,6 @@ menu{
   position: fixed;
   font-family: 'Cabin', sans-serif;
   font-size: 1.5em;
-
 }
 /*top level links*/
 #site-links{
@@ -25,19 +26,17 @@ menu{
 #site-links .menu-item{
   width: 6em;
   text-align: center;
-  color: #04E824;
+  color: #88D498;
   background-color: #114b5f;
   padding: .5em .5em .5em .5em;
   display: inline-grid;
   text-decoration: none;
 }
 #site-links .menu-item:hover{
-background-color: #04E824;
+background-color: #88D498;
   color: #114b5f;
   text-decoration: underline;
 }
-
-
 /*dropdown*/
 #site-links .dropdown{
 display: inline-block;
@@ -46,7 +45,7 @@ width: 1em;
 #site-links .dropdown-content{
   position: absolute;
   display: none;
-  background-color: #04E824;
+  background-color: #88D498;
   text-decoration: none;
   z-index: 5;
 }
@@ -55,7 +54,7 @@ width: 1em;
 
 }
 #site-links .dropdown-content a:hover{
-  color: #04E824;
+  color: #88D498;
   background-color: #114b5f;
   font-weight: 900;
   text-decoration: underline;
@@ -72,12 +71,5 @@ width: 1em;
   text-decoration: none;
 }
 .dropdown-item:hover{
-  background-color: #999;
-}
-
-
-
-/*social media*/
-#social-links{
-
+  background-color: #C6DABF;
 }

@@ -17,14 +17,14 @@ body {
   width:auto;
 }
   h1 {
-    color:#04E824;
+    color:#88D498;
     text-align: center;
     margin-top: 2em;
     font-family: 'Cabin', sans-serif;
     font-size: 3em;
   }
   h2 {
-    color:#04E824;
+    color:#88D498;
     text-align: center;
     font-family: 'Cabin', sans-serif;
   }
@@ -33,19 +33,53 @@ body {
   height: auto;
 }
   .content{
-    margin-top: 50em;
-    padding: 100px;
+    margin-top: 10em;
+    padding: 50px;
     margin: 50px;
     color:#FBFFFE;
     background-color: #114b5f;
   }
+.gallery{
+
+    color:#FBFFFE;
+    background-color: #114b5f;
+    padding: 10px;
+  }
   .contact{
     margin-top: 50em;
+    width: 30%;
     padding: 100px;
     margin: 50px;
     color:#FBFFFE;
     background-color: #114b5f;
   }
   .email{
-      color:#FBFFFE;
+      color:#DB5461;
+      font-size:1.75em;
+  }
+  .text, .text2{
+    color:#FFFFFF;
+    text-align: center;
+    line-height: 2em;
+    padding: 10px;
+    font-size:1.75em;
+  }
+  p:first-of-type:first-letter{
+    font-family: 'Lobster', 'Comic Sans', cursive;
+    font-size: 3em;
+    font-weight: 700;
+    color: #DB5461;
+  }
+  .bold{
+    font-family: 'Lobster', 'Comic Sans', cursive;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #DB5461;
+  }
+  .red{
+    color:#DB5461;
+  }
+  .float{
+    float: left;
+    width: 50%;
   }

@@ -7,51 +7,92 @@
     <meta name="author" content="Traci Harper">
     <title> Gallery </title>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link rel="stylesheet" type="text/css" href="./css/menu.css"
+  <link rel="stylesheet" type="text/css" href="./css/menu.css">
+  <style>
+        div.gallery {
+          border: 1px solid #ccc;
+        }
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+    </style>
 </head>
 <body>
   <div class="main"
       <header>
-      <!--site links for menu:        -->
-      <menu id="navigation">
-      <div id="site-links">
-        <a href="./index.html" class="menu-item">Home </a>
-        <a href="./about.html" class="menu-item">About </a>
-        <a href="./gallery.html" class="menu-item">Gallery </a>
-        <a href="./contact.html" class="menu-item">Contact </a>
-
-        <div class="dropdown">
-          <a href="#"class="menu-item" id="dropdown-group">Related Sites</a>
-            <div class="dropdown-content">
-            <a href="https://www.adcreativegroup.com/?utm_source=UpCity&utm_medium=referral&utm_campaign=top_local_agency&utm_term=top%20local%20agency" class="dropdown-item">A.D. Creative</a>
-            <a href="https://kineticmc.com/?utm_source=UpCity&utm_medium=referral&utm_campaign=top_local_agency&utm_term=top%20local%20agency"class="dropdown-item">Kinetic Agency</a>
-            <a href="https://skypointwebdesignbillingsmontana.com/?utm_source=UpCity&utm_medium=referral&utm_campaign=top_local_agency&utm_term=top%20local%20agency" class="dropdown-item">SkyPoint Studios</a>
-            <a href="https://zatomarketing.com/google-ads-for-small-budgets/?utm_source=UpCity&utm_medium=referral&utm_campaign=top_local_agency&utm_term=top%20local%20agency" class="dropdown-item">Zato Marketing</a>
+      <menu id="navigation" class="navbar">
+        <div id="site-links">
+          <a href="./index.html" class="menu-item">Home </a>
+          <a href="./about.html" class="menu-item">About </a>
+          <a href="./gallery.html" class="menu-item">Gallery </a>
+          <a href="./contact.html" class="menu-item">Contact </a>
+            <div class="dropdown">
+              <a href="#"class="menu-item" id="dropdown-group">Related</a>
+              <div class="dropdown-content">
+              <a href="https://boysosa.com" class="dropdown-item">Boy Sosa</a>
+              <a href="https://www.atticuspoetry.com"class="dropdown-item">Atticus Poetry</a>
+              <a href="http://wilderpoetry.com" class="dropdown-item">Wilder Poetry</a>
             </div>
         </div>
       </menu>
-      </div>
-
-      <!--links to social accounts:
-      <div id="social-links">
-        <a href="https://www.facebook.com" >Facebook </a>
-        <a href="https://www.instagram.com">Instagram </a>
-        <a href="https://www.twitter.com">Twitter </a>
-      </div> -->
-      <!--site logo, title,slogan-->
-      <div class="site-heading">
-
-          <div class="site-logo under-img">
-              <img src="./images..." class="under-img alt="alt descp" title="Site Logo"/>
-        <!--Main Content: posts, images, text-->
-
-        <h1> Services </h1>
-        <img src="./images/image-01.png" alt="Insert Image" title="addImage" class="banner"/>
-        <div class="content">
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit euismod in. At consectetur lorem donec massa. Non odio euismod lacinia at. Dui nunc mattis enim ut. Tempus egestas sed sed risus pretium quam. Ac turpis egestas integer eget aliquet nibh. Amet luctus venenatis lectus magna fringilla urna porttitor. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Eleifend quam adipiscing vitae proin sagittis.</p>
-        </p>
-        </div>
+  </div>
+         <h1> Gallery </h1>
+          <div class="responsive" "content" >
+              <div class="gallery">
+              <a href="./images/image-02.jpg">
+              <img src="./images/image-02.jpg" alt="Poem on waves photobackground" width="600" height="400"></a>
+              </div>
+          </div>
+          <div class="responsive" "content">
+            <div class="gallery">
+            <a href="./images/image-03.jpg">
+            <img src="./images/image-03.jpg" alt="Poem on black and white photo background" width="600" height="400"></a>
+            </div>
+          </div>
+          <div class="responsive" "content">
+              <div class="gallery">
+              <a href="./images/image-04.jpg">
+              <img src="./images/image-04.jpg" alt="..." width="600" height="400"></a>
+              </div>
+          </div>
+          <div class="responsive" "content">
+              <div class="gallery">
+              <a href="./images/image-05.jpg">
+              <img src="./images/image-05.jpg" alt="Mountains" width="600" height="400"></a>
+              </div>
+          </div>
   </div>
 </body>
 </html>
